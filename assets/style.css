@@ -12,14 +12,6 @@ body {
     font-family: "Open Sans", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 }
 
-header {
-    text-align: right;
-    padding: 16px 20px;
-    height: 32px;
-    margin: 0px;
-    border-bottom: solid 1px #ccc;
-}
-
 header .cp_icon {
     width: 32px;
 }
@@ -33,6 +25,13 @@ a {
     main {
         margin: 0 auto;
         width: 100%;
+    }
+    header {
+        text-align: right;
+        padding: 8px 20px;
+        height: 32px;
+        margin: 0px;
+        border-bottom: solid 1px #ccc;
     }
     h1 {
         font-size: 2.5rem;
@@ -51,6 +50,13 @@ a {
         margin: 0 auto;
         width: 671px;
     }
+    header {
+        text-align: right;
+        padding: 16px 20px;
+        height: 32px;
+        margin: 0px;
+        border-bottom: solid 1px #ccc;
+    }
     h1 {
         font-size: 3.5rem;
     }
@@ -66,6 +72,13 @@ a {
     main {
         margin: 0 auto;
         width: 671px;
+    }
+    header {
+        text-align: right;
+        padding: 16px 20px;
+        height: 32px;
+        margin: 0px;
+        border-bottom: solid 1px #ccc;
     }
     h1 {
         font-size: 3.5rem;
