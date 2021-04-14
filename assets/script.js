@@ -1,4 +1,4 @@
-function getNoteList() {
+function getUranai() {
     const resultDispId = 'note_result';
     const api_key = 'AKfycby4sHr0UXHPG3E_oJ5sNSVywDcFjVlNl6qEMCwD3QHaiEDkGkG1r_zEzrAbbZV_Vawy';
     let req = new XMLHttpRequest();
