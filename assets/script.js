@@ -45,3 +45,18 @@ function drawTable(jasons, elementId) {
         document.getElementById(elementId).innerHTML = html;
     }
 }
+
+function preloadUranai() {
+    const numTypes = 6;
+    const pathImage = 'img/###.png';
+
+    // 占い結果の画像をプリロードする
+    for (let i = 0; i < numTypes; i++) {
+        const preloadLink = document.createElement('link');
+        preloadLink.href = pathImage.replace(/###/, i);
+        preloadLink.rel = 'preload';
+        preloadLink.as = 'image';
+        document.head.appendChild(preloadLink);
+    }
+
+}
